@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratilipi Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        
+        <nav>
+            <a href="#"><img src="E:\MINIPROJECT\images\logo.png" alt="logo" class="logo"></a>
+            <a href="index.html">Home</a>
+            <a href="genres.html">Genres</a>
+            <a href="authors.html">Authors</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <!-- Main Content: Stories Grid -->
+    <section id="stories-list">
+        <h2>Featured Stories</h2>
+        <div class="stories-grid">
+            <article class="story-card">
+                <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373539765593&version=81936301-5434-46c8-a573-2728a513c596?width=150&enforceAspectRatio=false&quality=high&type=webp" alt="Story Image">
+                <h3>Single Mother</h3>
+                <p class="description">It is a story about a Single moother and a CEO.</p>
+                <button class="read-more">Read More</button>
+            </article>
+            <article class="story-card">
+                <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373539625773&version=afa0d90a-7b57-42ee-9361-2056eaece15b?width=150&enforceAspectRatio=false&quality=high&type=webp" alt="Story Image">
+                <h3>Love Maze</h3>
+                <p class="description">Love Maze is a story that speaks about sibling bonding, friendship, love, family and etc..</p>
+                <button class="read-more">Read More</button>
+            </article>
+            <article class="story-card">
+                <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373544301432&version=3d0125ec-180b-4751-be8c-c8e213bc9458?width=150&enforceAspectRatio=false&quality=high&type=webp" alt="Story Image">
+                <h3>Nightmare</h3>
+                <p class="description">Karthi is constantly being haunted by a nightmare and this time he wants to follow it.</p>
+                <button class="read-more">Read More</button>
+            </article>
+            <article class="story-card">
+                <img src="https://static-assets.pratilipi.com/series/cover?seriesId=197124&version=afebbc65-721f-4b7d-83ea-8b3207587549?width=150&enforceAspectRatio=false&quality=high&type=webp" alt="Story Image">
+                <h3>Naa Desam Kosam</h3>
+                <p class="description">A story about a young girl who turned into a spy for her country.</p>
+                <button class="read-more">Read More</button>
+            </article>
+            <article class="story-card">
+                <img src="https://english.pratilipi.com/user/book-worm-857208ts9u" alt="Story Image">
+                <h3>MISSILE MAN OF INDIA</h3>
+                <p class="description">An inspiring story about Dr. A P J Abdul Kalam </p>
+                <button class="read-more">Read More</button>
+            </article>
+            <!-- Add more stories here -->
+        </div>
+    </section>
+    <!-- Popular Stories Section -->
+<section id="popular-stories">
+    <h2>Popular Stories</h2>
+    <div class="stories-grid">
+        <article class="story-card" data-genre="romance">
+            <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373539765593&version=81936301-5434-46c8-a573-2728a513c596?width=150&enforceAspectRatio=false&quality=high&type=webp" alt="Story Image">
+            <h3>Single Mother</h3>
+            <p class="description">It is a story about a Single mother and a CEO.</p>
+            <button class="read-more">Read More</button>
+        </article>
+ 
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/1205955/cover_image/1205955.jpg" alt="Story Image">
+            <h3>Laxmi Panda</h3>
+            <p class="description">A TRUE, UNTOLD AND GRIPPING TALE OF LAXMI PANDA, A COURAGEOUS CHILD SPY</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        <article class="story-card" data-genre="comedy">
+            <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373539625773&version=afa0d90a-7b57-42ee-9361-2056eaece15b?width=150&enforceAspectRatio=false&quality=high&type=webp" alt="Story Image">
+            <h3>Love Maze</h3>
+            <p class="description">Love Maze is a story about sibling bonding, friendship, love, and family.</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        <article class="story-card" data-genre="Romance">
+            <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373538688140&version=75bac67a-616d-414b-94f4-d8bf0b5460c5" alt="Story Image">
+            <h3>Unkept Promises</h3>
+            <p class="description">Abhiram and Avantika Gandhi were a happily married couple. Yes, it had been an arranged marriage.</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/1044332/cover_image/1044332.jpg" alt="Story Image">
+            <h3>WWhy Is My Hair Curly?</h3>
+            <p class="description">Avantika brushes and brushes, but there's no keeping her curly hair down.</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        <!-- Add more popular stories here -->
+    </div>
+</section>
+
+<section id="kids-stories">
+    <h2>Children Stories</h2>
+    <div class="stories-grid">
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/830017/cover_image/830017.jpg" alt="Story Image">
+            <h3>Woof! Adventures By The Sea</h3>
+            <p class="description">AN ADVENTURE STORY ABOUT DOGS ON THE BEACH.</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        
+
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/825717/cover_image/825717.jpg" alt="Story Image">
+            <h3>The Tiger The Bear And The Battle For Mahovann</h3>
+            <p class="description">THE BOOK IS A PRIMER TO THE DIVERSITY OF WILDLIFE IN INDIA.</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/series/cover?seriesId=574630&version=30f44075-ca41-4468-a295-638b7a2c542f" alt="Story Image">
+            <h3>Short Stories 📖</h3>
+            <p class="description">Short Stories for Children's🥰🥰 ....</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/900866/cover_image/900866.jpg" alt="Story Image">
+            <h3>When Elephants Had Wings & Other Funny Stories</h3>
+            <p class="description">A COLLECTION OF TWENTY-FIVE RIB-TICKLING STORIES TO TICKLE KIDS’ FUNNY BONE.</p>
+            <button class="read-more">Read More</button>
+        </article>
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/series/cover?seriesId=337845&version=3a7e4e87-287f-4670-94ba-b69bc4e1c7b2" alt="Story Image">
+            <h3>Little Women: A Tale of 4 Sisters.</h3>
+            <p class="description">Little Women- A Tale of 4 Sisters [A Classic Tale Retold]</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/1205955/cover_image/1205955.jpg" alt="Story Image">
+            <h3>Laxmi Panda</h3>
+            <p class="description">A TRUE, UNTOLD AND GRIPPING TALE OF LAXMI PANDA, A COURAGEOUS CHILD SPY</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/803618/cover_image/803618.jpg" alt="Story Image">
+            <h3>The Adventures of Huckleberry Finn</h3>
+            <p class="description">In The Adventures of Huckleberry Finn, Huck escapes from the clutches of his drunken father ‘Pap’ and the ‘civilizing’ guardian Widow Douglas.</p>
+            <button class="read-more">Read More</button>
+        </article>
+
+        <article class="story-card" data-genre="children">
+            <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/1044332/cover_image/1044332.jpg" alt="Story Image">
+            <h3>WWhy Is My Hair Curly?</h3>
+            <p class="description">Avantika brushes and brushes, but there's no keeping her curly hair down.</p>
+            <button class="read-more">Read More</button>
+        </article>
+        
+    </div>
+    </section>
+
+    <section id="Romantic-stories">
+        <h2>Romantic Stories</h2>
+        <div class="stories-grid">
+            <article class="story-card" data-genre="Romance">
+                <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373538688140&version=75bac67a-616d-414b-94f4-d8bf0b5460c5" alt="Story Image">
+                <h3>Unkept Promises</h3>
+                <p class="description">Abhiram and Avantika Gandhi were a happily married couple. Yes, it had been an arranged marriage.</p>
+                <button class="read-more">Read More</button>
+            </article>
+    
+            <article class="story-card" data-genre="Romance">
+                <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/661214/cover_image/661214.jpg" alt="Story Image">
+                <h3>ROMEO'S REVENGE</h3>
+                <p class="description">Tatiana can’t wait to marry her high school sweetheart in 2 months and she knows that she’s going to be the happiest girl. </p>
+                <button class="read-more">Read More</button>
+            </article>
+    
+            <article class="story-card" data-genre="Romance">
+                <img src="https://static-assets.pratilipi.com/series/cover?seriesId=698061&version=76dfd0c3-4196-4aaf-8a99-7907f31820b3" alt="Story Image">
+                <h3>After the wedding</h3>
+                <p class="description">I tried to run away but ended up marrying. Let me tell you I marry a handsome jerk!</p>
+                <button class="read-more">Read More</button>
+            </article>
+    
+            <article class="story-card" data-genre="Romance">
+                <img src="https://static-assets.pratilipi.com/series/cover?seriesId=303231&version=6f31aabb-7344-4ee4-b683-7ce20f80d2dc" alt="Story Image">
+                <h3>Beyond Love</h3>
+                <p class="description">“Love is the crowning grace of humanity, the holiest right of the soul, the golden link which binds us.”- Petrarch</p>
+                <button class="read-more">Read More</button>
+            </article>
+            <article class="story-card" data-genre="Romance">
+                <img src="https://static-assets.pratilipi.com/series/cover?seriesId=647585&version=58fdcded-8cb1-4a45-88a3-758218914c49" alt="Story Image">
+                <h3>A royal love story</h3>
+                <p class="description">❤</p>
+                <button class="read-more">Read More</button>
+            </article>
+    
+            <article class="story-card" data-genre="Romance">
+                <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373539765593&version=81936301-5434-46c8-a573-2728a513c596?width=150&enforceAspectRatio=false&quality=high&type=webp" alt="Story Image">
+                <h3>Single Mother</h3>
+                <p class="description">It is a Romantic comedy story about a Single mother and a CEO.</p>
+                <button class="read-more">Read More</button>
+            </article>
+    
+            <article class="story-card" data-genre="Romance">
+                <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373534730988&version=3218ba2c-ecdc-4f13-a004-1bc4e202a630" alt="Story Image">
+                <h3>Kasauti Zindagi Ki....</h3>
+                <p class="description">Prerna's POV I woke up and found myself in the bed. It's not my house and it's not my bed.... What! </p>
+                <button class="read-more">Read More</button>
+            </article>
+    
+            <article class="story-card" data-genre="Romance">
+                <img src="https://static-assets.pratilipi.com/series/cover?seriesId=1014619&version=b1dcbdea-15b9-401e-9ecf-1292d6da4f3e" alt="Story Image">
+                <h3>Destined With You</h3>
+                <p class="description">At the peak of her career, A-list actress Evelyn announced her withdrawal from the entertainment industry for love, shocking the nation. ...</p>
+                <button class="read-more">Read More</button>
+            </article>
+            
+        </div>
+        </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Pratilipi Clone. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

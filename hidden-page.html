@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Page - Pratilipi Clone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hidden.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        
+        <nav>
+            <a href="#"><img src="E:\MINIPROJECT\images\logo.png" alt="logo" class="logo"></a>
+            <a href="index.html">Home</a>
+            <a href="genres.html">Genres</a>
+            <a href="authors.html">Authors</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search stories..." />
+            <button>Search</button>
+        </div>
+    </header>
+
+    <section id="hidden-content">
+        <h2>Welcome to the Hidden Page!</h2>
+        <p>This page is only accessible after signing up.</p>
+    </section>
+
+    <!-- Featured Section -->
+    <section class="featured">
+        <h2>Featured Stories</h2>
+        <div class="content-grid">
+            <div class="content-card">
+                <img src="https://static-assets.pratilipi.com/pratilipi/cover?pratilipiId=6755373544039478&version=fd1b6a10-922b-4202-a737-ae80e69139af" alt="Story Image">
+                <h3>The Zamindar's Bride</h3>
+                <p>Undivided Bengal, 18th century The sun set over the lush green fields, casting a golden glow on the small village of Chandipur. </p>
+            </div>
+            <div class="content-card">
+                <img src="https://static-assets.pratilipi.com/pratilipi_premium/data/713435/cover_image/713435.jpg" alt="Story Image">
+                <h3>Devil And His Angel</h3>
+                <p>Today is a very important day for me. It's my first day of college. Okay......</p>
+            </div>
+            <div class="content-card">
+                <img src="https://via.placeholder.com/150" alt="Story Image">
+                <h3>Dragon King</h3>
+                <p></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Pratilipi Clone. All Rights Reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms & Conditions</a></p>
+    </footer>
+
+    <script>
+        // Check if the user has signed up
+        const isSignedUp = localStorage.getItem('isSignedUp');
+
+        if (!isSignedUp) {
+            // If the user is not signed up, redirect them to the sign-up page
+            window.location.href = 'signup.html';
+        }
+    </script>
+</body>
+</html>
